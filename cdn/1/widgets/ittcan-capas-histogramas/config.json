@@ -1,0 +1,6 @@
+{
+  "statisticsUrl": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/ITTCAN_Estadisticas_Territoriales_20261018_091905/FeatureServer/0",
+  "municipalitiesUrl": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/MUNICIPIOS_/FeatureServer/0",
+  "initialTerritory": "ADEJE",
+  "displayMode": "all"
+}

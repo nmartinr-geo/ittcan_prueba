@@ -1,0 +1,28 @@
+{
+  "name": "ittcan-capas-histogramas",
+  "label": "ITTCAN · Capas e histogramas",
+  "type": "widget",
+  "version": "1.1.0",
+  "exbVersion": "1.21.0",
+  "author": "ITTCAN",
+  "description": "Histogramas de las capas activas y zoom territorial para ITTCAN.",
+  "copyright": "",
+  "license": "",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "settingDependency": [
+    "jimu-arcgis"
+  ],
+  "translatedLocales": [
+    "en",
+    "es"
+  ],
+  "properties": {
+    "hasSettingPage": true
+  },
+  "defaultSize": {
+    "width": 440,
+    "height": 720
+  }
+}

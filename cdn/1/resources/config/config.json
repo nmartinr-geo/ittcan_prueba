@@ -1,0 +1,2214 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "header": false,
+      "footer": false,
+      "bodyBackgroundColor": "",
+      "label": "Página"
+    },
+    "page_ittcan_comparacion": {
+      "id": "page_ittcan_comparacion",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_ittcan_comparacion"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "header": false,
+      "footer": false,
+      "bodyBackgroundColor": "",
+      "label": "Comparación de variantes"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "GRID",
+      "content": {
+        "13": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "gridType": 3,
+          "bbox": {
+            "width": 55.21
+          },
+          "parent": "19"
+        },
+        "14": {
+          "type": "WIDGET",
+          "widgetId": "widget_17",
+          "gridType": 3,
+          "parent": "17",
+          "bbox": {
+            "width": 10.420000000000002
+          },
+          "expandable": true,
+          "hasItemHeader": false
+        },
+        "15": {
+          "gridType": 0,
+          "bbox": {
+            "width": 100
+          },
+          "children": [
+            "17",
+            "19"
+          ]
+        },
+        "16": {
+          "type": "WIDGET",
+          "widgetId": "widget_18",
+          "gridType": 3,
+          "parent": "17",
+          "bbox": {
+            "width": 89.58
+          },
+          "expandable": true,
+          "hasItemHeader": false
+        },
+        "17": {
+          "gridType": 1,
+          "parent": "15",
+          "bbox": {
+            "width": 24.77
+          },
+          "children": [
+            "14",
+            "16"
+          ]
+        },
+        "18": {
+          "type": "WIDGET",
+          "widgetId": "widget_19",
+          "gridType": 3,
+          "bbox": {
+            "width": 44.79
+          },
+          "expandable": true,
+          "hasItemHeader": false,
+          "parent": "19"
+        },
+        "19": {
+          "gridType": 1,
+          "parent": "15",
+          "bbox": {
+            "width": 75.23
+          },
+          "children": [
+            "13",
+            "18"
+          ]
+        }
+      },
+      "order": [],
+      "setting": {
+        "rootItem": "15",
+        "mainItemId": "widget_1",
+        "splitColor": "",
+        "style": {
+          "padding": {
+            "number": [
+              8,
+              8,
+              8,
+              8
+            ],
+            "unit": "px"
+          }
+        },
+        "paddingColor": ""
+      }
+    },
+    "layout_1": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "60.00px",
+            "right": "10.00px",
+            "top": "10.00px",
+            "bottom": "87.6%",
+            "width": "80.00%",
+            "height": "9.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "label": "Map FixedLayout"
+    },
+    "layout_9": {
+      "type": "FIXED",
+      "order": [
+        "1"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "14.00px",
+            "top": "50%",
+            "width": 295,
+            "height": "40px",
+            "right": "14.00px"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "hCenter": false,
+            "vCenter": true,
+            "autoProps": {
+              "width": "STRETCH",
+              "top": false,
+              "bottom": true,
+              "right": false,
+              "left": true,
+              "height": "CUSTOM"
+            }
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_12": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "14.00px",
+            "top": "50%",
+            "width": 300,
+            "height": "28.00px",
+            "right": "300.00px"
+          },
+          "widgetId": "widget_7",
+          "setting": {
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": true
+            }
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "91.7%",
+            "right": "14.00px",
+            "top": "50%",
+            "bottom": "10.0%",
+            "width": "2.3%",
+            "height": "80.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true
+          }
+        }
+      }
+    },
+    "layout_13": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Controller layout"
+    },
+    "layout_15": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "10.00px",
+            "top": "50%",
+            "width": 300,
+            "height": "28.00px",
+            "right": "180.00px"
+          },
+          "widgetId": "widget_7",
+          "setting": {
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": true
+            }
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "91.7%",
+            "right": "10.00px",
+            "top": "50%",
+            "bottom": "10.0%",
+            "width": "2.3%",
+            "height": "80.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true
+          }
+        }
+      }
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_13",
+          "bbox": {
+            "left": "50%",
+            "right": "0.0000%",
+            "top": "50%",
+            "bottom": "0.0000%",
+            "width": "90.00%",
+            "height": "90.00%"
+          },
+          "setting": {
+            "vCenter": true,
+            "hCenter": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_ittcan_comparacion": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_ittcan_filtro_comparacion",
+          "bbox": {
+            "left": "2%",
+            "top": "2%",
+            "width": "96%",
+            "height": "22%"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_ittcan_comparacion",
+          "bbox": {
+            "left": "2%",
+            "top": "26%",
+            "width": "96%",
+            "height": "72%"
+          }
+        }
+      }
+    }
+  },
+  "exbVersion": "1.21.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/master/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "MEDIUM": {
+        "width": 601,
+        "height": 962
+      },
+      "SMALL": {
+        "width": 360,
+        "height": 640
+      }
+    }
+  },
+  "template": "dashboard",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.21.0",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": false,
+          "canLayers": false,
+          "canScaleBar": true,
+          "canFullScreen": true,
+          "canSelect": false,
+          "canSelectState": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 2311162.217155,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100,
+                "falseM": -100000,
+                "falseX": -20037700,
+                "falseY": -30241100,
+                "falseZ": -100000,
+                "mTolerance": 0.001,
+                "mUnits": 10000,
+                "xyTolerance": 0.001,
+                "xyUnits": 10000,
+                "zTolerance": 0.001,
+                "zUnits": 10000
+              },
+              "x": -1768634.3819167474,
+              "y": 3304348.312822291
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100,
+              "falseM": -100000,
+              "falseX": -20037700,
+              "falseY": -30241100,
+              "falseZ": -100000,
+              "mTolerance": 0.001,
+              "mUnits": 10000,
+              "xyTolerance": 0.001,
+              "xyUnits": 10000,
+              "zTolerance": 0.001,
+              "zUnits": 10000
+            },
+            "xmin": -2037081.225254273,
+            "ymin": 3140467.3241788815,
+            "xmax": -1500187.5385792218,
+            "ymax": 3468229.301465701
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "scaleRange": null,
+        "customLODs": null
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "style": {
+        "borderRadius": {
+          "number": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "unit": "px"
+        }
+      },
+      "label": "Mapa",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_3": {
+      "uri": "widgets/common/text/",
+      "version": "1.21.0",
+      "config": {
+        "text": "<p></p>",
+        "placeholder": "<h5><strong>Haga doble clic para editar el texto</strong></h5>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": false
+        }
+      },
+      "id": "widget_3",
+      "label": "Texto"
+    },
+    "widget_7": {
+      "uri": "widgets/common/text/",
+      "version": "1.21.0",
+      "config": {
+        "text": "<p></p>",
+        "placeholder": "<p style=\"text-align: left;\"><span style=\"font-size: 13px;\">Haga doble clic para editar el texto</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": false
+        }
+      },
+      "id": "widget_7",
+      "label": "Texto 2"
+    },
+    "widget_8": {
+      "uri": "widgets/common/controller/",
+      "version": "1.21.0",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "alignment": "start"
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": false,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "circle"
+            }
+          }
+        }
+      },
+      "id": "widget_8",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_13"
+        }
+      },
+      "label": "Controlador de widget"
+    },
+    "widget_9": {
+      "uri": "widgets/common/share/",
+      "version": "1.21.0",
+      "offPanel": true,
+      "config": {
+        "uiMode": "INLINE",
+        "popup": {
+          "icon": "",
+          "items": [
+            {
+              "id": "embed",
+              "enable": true
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": true
+            },
+            {
+              "id": "facebook",
+              "enable": true
+            },
+            {
+              "id": "twitter",
+              "enable": true
+            },
+            {
+              "id": "pinterest",
+              "enable": true
+            },
+            {
+              "id": "linkedin",
+              "enable": true
+            }
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            {
+              "id": "facebook",
+              "enable": true
+            },
+            {
+              "id": "twitter",
+              "enable": true
+            },
+            {
+              "id": "pinterest",
+              "enable": false
+            },
+            {
+              "id": "linkedin",
+              "enable": false
+            },
+            {
+              "id": "embed",
+              "enable": false
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": false
+            },
+            {
+              "id": "sharelink",
+              "enable": true
+            }
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": true,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "",
+            "size": "sm",
+            "labelColor": "var(--dark)"
+          }
+        }
+      },
+      "id": "widget_9",
+      "label": "Compartir"
+    },
+    "widget_13": {
+      "uri": "widgets/common/text/",
+      "version": "1.21.0",
+      "config": {
+        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet</span></p><p><br></p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" data-name=\"svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" width=\"145\" style=\"display: block; float: left; margin: 0px 0.9em 0.9em 0px; width: 31.66%;\">Ne debet assentior qui. Zril salutandi comprehensam an qui, nam no semper temporibus dissentiet, eleifend antiopam evertitur at sed. An wisi efficiendi sit.</p><p><br></p><p>Vel ea mentitum dissentiet, partem saperet accumsan vim ex, meliore repudiare consetetur et has.</p><p><br></p><p>Eu nostrum volutpat maluisset has, per ea homero utamur, ius ut wisi nominati. Sumo denique appareat.</p><p><br></p><p>Inermis vituperatoribus et ius. Aeque tritani eu qui, ne pri euripidis, mandamus reprimique te vix. Ei case atqui sonet vim.</p>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_13",
+      "label": "Texto 3"
+    },
+    "widget_ittcan_comparacion": {
+      "uri": "widgets/common/chart/",
+      "version": "1.21.0",
+      "label": "Comparación entre variantes · alto + muy alto (%)",
+      "config": {
+        "template": "column",
+        "webChart": {
+          "version": "25.0.0",
+          "id": "column",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "variante"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "max",
+                  "onStatisticField": "pct_alto_muy_alto",
+                  "outStatisticFieldName": "max_of_pct_alto_muy_alto"
+                }
+              ]
+            }
+          },
+          "rotated": true,
+          "colorMatch": false,
+          "stackedType": "sideBySide",
+          "series": [
+            {
+              "type": "barSeries",
+              "id": "pct_alto_muy_alto",
+              "name": "pct_alto_muy_alto",
+              "x": "variante",
+              "y": "max_of_pct_alto_muy_alto",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--sys-color-divider-secondary)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-hint)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-text)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-hint)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "category",
+                "characterLimit": 11
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--sys-color-divider-primary)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--sys-color-divider-tertiary)",
+                "width": 0
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-text)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-hint)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--sys-color-divider-primary)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--sys-color-divider-tertiary)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "var(--sys-color-surface-paper)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--sys-color-surface-paper-text)",
+              "font": {
+                "family": "inherit",
+                "size": 16,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "Comparación entre variantes · alto + muy alto (%)"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--sys-color-surface-paper-hint)",
+              "font": {
+                "family": "inherit",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": true,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--sys-color-surface-paper-text)",
+                "font": {
+                  "family": "inherit",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--sys-color-surface-paper-text)",
+              "font": {
+                "family": "inherit",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "bottom"
+          },
+          "orderOptions": {
+            "orderByFields": [
+              "max_of_pct_alto_muy_alto DESC"
+            ],
+            "data": {
+              "orderType": "arcgis-charts-value",
+              "orderBy": "DESC"
+            }
+          }
+        },
+        "tools": {
+          "cursorEnable": true
+        }
+      },
+      "id": "widget_ittcan_comparacion",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_ittcan_resumen",
+          "mainDataSourceId": "dataSource_ittcan_resumen",
+          "fields": [
+            "*"
+          ]
+        }
+      ],
+      "outputDataSources": [
+        "widget_ittcan_comparacion_output"
+      ]
+    },
+    "widget_ittcan_filtro_comparacion": {
+      "uri": "widgets/common/filter/",
+      "version": "1.21.0",
+      "label": "Territorio de la comparación",
+      "config": {
+        "logicalOperator": "AND",
+        "filterItems": [
+          {
+            "type": "SINGLE",
+            "name": "Territorio de la comparación",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_ittcan_resumen",
+                "mainDataSourceId": "dataSource_ittcan_resumen",
+                "fields": [
+                  "*"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filtrar",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "municipio",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": [
+                      {
+                        "value": "ADEJE",
+                        "label": "ADEJE"
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Territorio de la comparación",
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "municipio = 'ADEJE'",
+              "displaySQL": "municipio = 'ADEJE'"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          }
+        ],
+        "arrangeType": "BLOCK",
+        "triggerType": "BUTTON",
+        "omitInternalStyle": false,
+        "resetAll": false,
+        "turnOffAll": false
+      },
+      "id": "widget_ittcan_filtro_comparacion",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_ittcan_resumen",
+          "mainDataSourceId": "dataSource_ittcan_resumen",
+          "fields": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "widget_17": {
+      "uri": "widgets/ittcan-capas-histogramas/",
+      "version": "1.1.0",
+      "label": "ITTCAN · Capas e histogramas",
+      "config": {
+        "statisticsUrl": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/ITTCAN_Estadisticas_Territoriales_20261018_091905/FeatureServer/0",
+        "municipalitiesUrl": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/MUNICIPIOS_/FeatureServer/0",
+        "initialTerritory": "ADEJE",
+        "displayMode": "territory"
+      },
+      "id": "widget_17",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_18": {
+      "uri": "widgets/ittcan-capas-histogramas/",
+      "version": "1.1.0",
+      "label": "ITTCAN · Capas e histogramas 2",
+      "config": {
+        "statisticsUrl": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/ITTCAN_Estadisticas_Territoriales_20261018_091905/FeatureServer/0",
+        "municipalitiesUrl": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/MUNICIPIOS_/FeatureServer/0",
+        "initialTerritory": "ADEJE",
+        "displayMode": "layers"
+      },
+      "id": "widget_18",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_19": {
+      "uri": "widgets/ittcan-capas-histogramas/",
+      "version": "1.1.0",
+      "label": "ITTCAN · Capas e histogramas 3",
+      "config": {
+        "statisticsUrl": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/ITTCAN_Estadisticas_Territoriales_20261018_091905/FeatureServer/0",
+        "municipalitiesUrl": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/MUNICIPIOS_/FeatureServer/0",
+        "initialTerritory": "ADEJE",
+        "displayMode": "charts"
+      },
+      "id": "widget_19",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {
+    "dialog_2": {
+      "id": "dialog_2",
+      "mode": "FIXED",
+      "blockPage": true,
+      "sizeMode": {
+        "LARGE": {
+          "position": "MIDDLE_CENTER",
+          "width": "480px",
+          "height": "360px",
+          "offsetX": 0,
+          "offsetY": 0,
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--sys-color-surface-overlay)",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "#000000",
+      "layout": {
+        "LARGE": "layout_20"
+      },
+      "index": 0,
+      "isSplash": false,
+      "border": {
+        "color": "var(--sys-color-divider-secondary)",
+        "type": "solid",
+        "width": "2px"
+      },
+      "closeWhenClickOverlay": true,
+      "label": "Ventana"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_0": []
+    },
+    {
+      "page_ittcan_comparacion": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_9"
+    },
+    "height": {
+      "LARGE": "50"
+    }
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_12",
+      "SMALL": "layout_15"
+    },
+    "height": {
+      "LARGE": "30px",
+      "SMALL": "30px"
+    }
+  },
+  "placeholderInfos": {
+    "1": {
+      "id": 1,
+      "rootContainer": {
+        "type": "pages",
+        "id": "page_0"
+      },
+      "layoutInfo": {
+        "layoutId": "layout_0",
+        "layoutItemId": "14"
+      }
+    },
+    "2": {
+      "id": 2,
+      "rootContainer": {
+        "type": "pages",
+        "id": "page_0"
+      },
+      "layoutInfo": {
+        "layoutId": "layout_0",
+        "layoutItemId": "15"
+      }
+    },
+    "3": {
+      "id": 3,
+      "rootContainer": {
+        "type": "pages",
+        "id": "page_0"
+      },
+      "layoutInfo": {
+        "layoutId": "layout_0",
+        "layoutItemId": "16"
+      }
+    },
+    "4": {
+      "id": 4,
+      "rootContainer": {
+        "type": "pages",
+        "id": "page_0"
+      },
+      "layoutInfo": {
+        "layoutId": "layout_0",
+        "layoutItemId": "17"
+      }
+    },
+    "5": {
+      "id": 5,
+      "rootContainer": {
+        "type": "pages",
+        "id": "page_0"
+      },
+      "layoutInfo": {
+        "layoutId": "layout_0",
+        "layoutItemId": "18"
+      }
+    }
+  },
+  "customTheme": {},
+  "customThemeOptions": {},
+  "savedThemes": [],
+  "publishTimestamp": 1781516487227,
+  "attributes": {
+    "portalUrl": "https://ULL-es.maps.arcgis.com"
+  },
+  "timestamp": 1792417829957,
+  "sharedThemeVariables": null,
+  "mainLocale": "es-es",
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "ITTCAN · Mapa de prueba estadística",
+      "itemId": "4a14a8729293475696dcfb2a1bb0944a",
+      "portalUrl": "https://ULL-es.maps.arcgis.com",
+      "childDataSourceJsons": {
+        "grupo_ded5c7c487bc450dbcae5cfe043e90ff": {
+          "id": "dataSource_1-grupo_ded5c7c487bc450dbcae5cfe043e90ff",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Referencia territorial",
+          "childDataSourceJsons": {
+            "1a13f3614a9-layer-32": {
+              "id": "dataSource_1-grupo_ded5c7c487bc450dbcae5cfe043e90ff-1a13f3614a9-layer-32",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Municipios",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "62f9634cc86a49289c1ed5cbf137646a",
+              "layerId": "0",
+              "url": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/MUNICIPIOS_/FeatureServer/0"
+            }
+          }
+        },
+        "grupo_ffc2304070fb492dbfa795fdfe808ad5": {
+          "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Movimientos de ladera",
+          "childDataSourceJsons": {
+            "grupo_aa57c3dacfba47ddb963bf31934e4ae7": {
+              "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_aa57c3dacfba47ddb963bf31934e4ae7",
+              "type": "GROUP_LAYER",
+              "sourceLabel": "Fuerteventura",
+              "childDataSourceJsons": {
+                "1a13f36f252-layer-61": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_aa57c3dacfba47ddb963bf31934e4ae7-1a13f36f252-layer-61",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 2 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "c20c47baac5c42aabcb4b3de3936f65c",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_FV_2_T2_reclass/ImageServer"
+                },
+                "1a13f36e852-layer-60": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_aa57c3dacfba47ddb963bf31934e4ae7-1a13f36e852-layer-60",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 25 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "5f4ee56de85d4e0191e3afb0e93cd9e7",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_FV_25_T2_reclass/ImageServer"
+                },
+                "1a13f36e638-layer-59": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_aa57c3dacfba47ddb963bf31934e4ae7-1a13f36e638-layer-59",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 5 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "2f28224b116144578426667276ec2d89",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_FV_5_T2_reclass/ImageServer"
+                }
+              }
+            },
+            "grupo_9e5d38ab295b417c87d15ce1d00a5fcd": {
+              "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_9e5d38ab295b417c87d15ce1d00a5fcd",
+              "type": "GROUP_LAYER",
+              "sourceLabel": "Gran Canaria",
+              "childDataSourceJsons": {
+                "1a13f36de1c-layer-58": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_9e5d38ab295b417c87d15ce1d00a5fcd-1a13f36de1c-layer-58",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 2 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "154b2122355c4a3d8be8f6b5878f318a",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_GC_2_T2_reclass/ImageServer"
+                },
+                "1a13f74ff49-layer-75": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_9e5d38ab295b417c87d15ce1d00a5fcd-1a13f74ff49-layer-75",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 5 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "bf111a421fde47cdb501e1b7063e1cfc",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_GC_5_T2_reclass/ImageServer"
+                },
+                "1a13f36d802-layer-57": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_9e5d38ab295b417c87d15ce1d00a5fcd-1a13f36d802-layer-57",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 25 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "ee98cd45bcb54ff3ad9f749a6f3496df",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_GC_25_T2_reclass/ImageServer"
+                }
+              }
+            },
+            "grupo_105f10afab9a4ad19dfc8a3b74881aa7": {
+              "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_105f10afab9a4ad19dfc8a3b74881aa7",
+              "type": "GROUP_LAYER",
+              "sourceLabel": "La Gomera",
+              "childDataSourceJsons": {
+                "1a13f36d1e3-layer-56": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_105f10afab9a4ad19dfc8a3b74881aa7-1a13f36d1e3-layer-56",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 2 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "b6121adc65734f6f86eca22d8856447f",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_GO_2_T2_reclass/ImageServer"
+                },
+                "1a13f36cbf7-layer-55": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_105f10afab9a4ad19dfc8a3b74881aa7-1a13f36cbf7-layer-55",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 25 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "b1d5fd96c1964078917589cbf4fec3ce",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_GO_25_T2_reclass/ImageServer"
+                },
+                "1a13f36c573-layer-54": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_105f10afab9a4ad19dfc8a3b74881aa7-1a13f36c573-layer-54",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 5 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "c0923273c3694fe4be708d57d888ecf8",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_GO_5_T2_reclass/ImageServer"
+                }
+              }
+            },
+            "grupo_e186f585040f459c82d1344988f5a265": {
+              "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_e186f585040f459c82d1344988f5a265",
+              "type": "GROUP_LAYER",
+              "sourceLabel": "El Hierro",
+              "childDataSourceJsons": {
+                "1a13f36c15d-layer-53": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_e186f585040f459c82d1344988f5a265-1a13f36c15d-layer-53",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 2 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "295f0b3dd56a461584a5fa342be04145",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_HI_2_T2_reclass/ImageServer"
+                },
+                "1a13f36baed-layer-52": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_e186f585040f459c82d1344988f5a265-1a13f36baed-layer-52",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 25 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "8dd787179b0a4108ac5549932a04232f",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_HI_25_T2_reclass/ImageServer"
+                },
+                "1a13f36b8cb-layer-51": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_e186f585040f459c82d1344988f5a265-1a13f36b8cb-layer-51",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 5 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "ff5762c2bdb1478b96eb61172a877d10",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_HI_5_T2_reclass/ImageServer"
+                }
+              }
+            },
+            "grupo_d629374b4ed44b86ba46065a3a321342": {
+              "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_d629374b4ed44b86ba46065a3a321342",
+              "type": "GROUP_LAYER",
+              "sourceLabel": "La Palma",
+              "childDataSourceJsons": {
+                "1a13f36b22d-layer-50": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_d629374b4ed44b86ba46065a3a321342-1a13f36b22d-layer-50",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 2 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "2a86c0134d584144958920d95700e2fe",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_LP_2_T2_reclass/ImageServer"
+                },
+                "1a13f36af51-layer-49": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_d629374b4ed44b86ba46065a3a321342-1a13f36af51-layer-49",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 25 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "405597f149cc42fd8c88ae4dc2992eb9",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_LP_25_T2_reclass/ImageServer"
+                },
+                "1a13f36aaee-layer-48": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_d629374b4ed44b86ba46065a3a321342-1a13f36aaee-layer-48",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 5 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "f6a072ba871f4d8c905455787a5ea38b",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_LP_5_T2_reclass/ImageServer"
+                }
+              }
+            },
+            "grupo_5eea384f201c48adb37ae7efc98375e0": {
+              "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_5eea384f201c48adb37ae7efc98375e0",
+              "type": "GROUP_LAYER",
+              "sourceLabel": "Lanzarote",
+              "childDataSourceJsons": {
+                "1a13f36a595-layer-47": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_5eea384f201c48adb37ae7efc98375e0-1a13f36a595-layer-47",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 2 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "5b4afcac16b942bfaa68db293547297a",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_LZ_2_T2_reclass/ImageServer"
+                },
+                "1a13f369e8e-layer-46": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_5eea384f201c48adb37ae7efc98375e0-1a13f369e8e-layer-46",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 25 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "2aacefd5c9dc4d4c872f39d9d2db1199",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_LZ_25_T2_reclass/ImageServer"
+                },
+                "1a13f369bc2-layer-45": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_5eea384f201c48adb37ae7efc98375e0-1a13f369bc2-layer-45",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 5 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "48cf69e581654ec1af2c252fd09dfec8",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_LZ_5_T2_reclass/ImageServer"
+                }
+              }
+            },
+            "grupo_6318b8589ee04280b8a8165ae59fa106": {
+              "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_6318b8589ee04280b8a8165ae59fa106",
+              "type": "GROUP_LAYER",
+              "sourceLabel": "Tenerife",
+              "childDataSourceJsons": {
+                "1a13f36955f-layer-44": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_6318b8589ee04280b8a8165ae59fa106-1a13f36955f-layer-44",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 2 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "0d88d238a32b4475865f04ad81dcc844",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_TF_2_T2_reclass/ImageServer"
+                },
+                "1a13f3673a8-layer-43": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_6318b8589ee04280b8a8165ae59fa106-1a13f3673a8-layer-43",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 25 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "1e544cb504ac42d489a2e919dd43efb2",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_TF_25_T2_reclass/ImageServer"
+                },
+                "1a13f366970-layer-41": {
+                  "id": "dataSource_1-grupo_ffc2304070fb492dbfa795fdfe808ad5-grupo_6318b8589ee04280b8a8165ae59fa106-1a13f366970-layer-41",
+                  "type": "IMAGERY_TILE_LAYER",
+                  "sourceLabel": "Resolución de 5 m",
+                  "portalUrl": "https://www.arcgis.com",
+                  "itemId": "9631683012594661aee1b2a15e86376d",
+                  "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Mov_Laderahaz_mov_vert_TF_5_T2_reclass/ImageServer"
+                }
+              }
+            }
+          }
+        },
+        "grupo_3f6a675376bd4a8ea2cb460e3347cca2": {
+          "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Amenazas costero-marinas",
+          "childDataSourceJsons": {
+            "1a13f3670e5-layer-42": {
+              "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2-1a13f3670e5-layer-42",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · SSP1-2.6 · 0,55 m · Bruun 100",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e3c4e8f6ed2e40fc86569ab73b9ddee2",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Costera_susceptibilidad_costero_marina_SSP1_2_6_0_55m_bruun100/ImageServer"
+            },
+            "1a13f365c59-layer-39": {
+              "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2-1a13f365c59-layer-39",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · SSP5-8.5 · 0,91 m · Bruun 50",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "008f361cbcd44a9797e1fdf80bb916a4",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Costera_susceptibilidad_costero_marina_SSP5_8_5_0_91m_bruun50/ImageServer"
+            },
+            "1a13f3658b4-layer-38": {
+              "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2-1a13f3658b4-layer-38",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · SSP3-7.0 · 0,80 m · Bruun 100",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "011dea2bdff240d09b1d9608d6c29286",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Costera_susceptibilidad_costero_marina_SSP3_7_0_0_80m_bruun100/ImageServer"
+            },
+            "1a13f365381-layer-37": {
+              "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2-1a13f365381-layer-37",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · SSP3-7.0 · 0,80 m · Bruun 50",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "302bed4ee6534114abea5ef99e3c9a72",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Costera_susceptibilidad_costero_marina_SSP3_7_0_0_80m_bruun50/ImageServer"
+            },
+            "1a13f364f13-layer-36": {
+              "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2-1a13f364f13-layer-36",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · SSP5-8.5 · 0,91 m · Bruun 100",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "2547568bb4294b7187f286905a6cc964",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Costera_susceptibilidad_costero_marina_SSP5_8_5_0_91m_bruun100/ImageServer"
+            },
+            "1a13f364a71-layer-35": {
+              "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2-1a13f364a71-layer-35",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · SSP1-2.6 · 0,55 m · Bruun 50",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "9320dd6fdaa04dc08ca891cbedc6f141",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Costera_susceptibilidad_costero_marina_SSP1_2_6_0_55m_bruun50/ImageServer"
+            },
+            "1a13f364486-layer-34": {
+              "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2-1a13f364486-layer-34",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · SSP2-4.5 · 0,68 m · Bruun 100",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "79c70783a91646d08b27c9033c1b44d8",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Costera_susceptibilidad_costero_marina_SSP2_4_5_0_68m_bruun100/ImageServer"
+            },
+            "1a13f363610-layer-33": {
+              "id": "dataSource_1-grupo_3f6a675376bd4a8ea2cb460e3347cca2-1a13f363610-layer-33",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · SSP2-4.5 · 0,68 m · Bruun 50",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1740a436112435a8eed99502c35a5a0",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Costera_susceptibilidad_costero_marina_SSP2_4_5_0_68m_bruun50/ImageServer"
+            }
+          }
+        },
+        "grupo_5ddaccf140cb4ce199ebec6760f82e83": {
+          "id": "dataSource_1-grupo_5ddaccf140cb4ce199ebec6760f82e83",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Inundación fluvial",
+          "childDataSourceJsons": {
+            "1a13f5c6882-layer-70": {
+              "id": "dataSource_1-grupo_5ddaccf140cb4ce199ebec6760f82e83-1a13f5c6882-layer-70",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Escenarios T100 y T500 · Método oficial",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "9b76d4a5d5f34e4e8f15a94ee706b423",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Fluvial_ARPSI_ScenaryCode_Canarias/ImageServer"
+            },
+            "1a13f360a14-layer-31": {
+              "id": "dataSource_1-grupo_5ddaccf140cb4ce199ebec6760f82e83-1a13f360a14-layer-31",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad · Método experimental",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "33afe093c8014df19832407161419c0a",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Fluvial_Peligrosidad_Canarias/ImageServer"
+            }
+          }
+        },
+        "grupo_9bedb69099104a61a9dce25d46095b6d": {
+          "id": "dataSource_1-grupo_9bedb69099104a61a9dce25d46095b6d",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Olas de calor",
+          "childDataSourceJsons": {
+            "1a1347c6de9-layer-25": {
+              "id": "dataSource_1-grupo_9bedb69099104a61a9dce25d46095b6d-1a1347c6de9-layer-25",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Duración normalizada",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "0c1fa987409e454ab6b674abc2d52d14",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Olas_CalorDURACION_NORMALIZADA_CANARIAS_CLASES_1_5/ImageServer"
+            },
+            "1a1347c6b4f-layer-24": {
+              "id": "dataSource_1-grupo_9bedb69099104a61a9dce25d46095b6d-1a1347c6b4f-layer-24",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Frecuencia normalizada",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "56629616a6844713a289a27164e7f669",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Olas_CalorFRECUENCIA_NORMALIZADA_CANARIAS_CLASES_1_5/ImageServer"
+            },
+            "1a1347c662e-layer-23": {
+              "id": "dataSource_1-grupo_9bedb69099104a61a9dce25d46095b6d-1a1347c662e-layer-23",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Índice compuesto",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "a6f0bd7e1c544acdb44029f41a4eddc8",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Olas_CalorINDICE_COMPUESTO_CANARIAS_CLASES_1_5/ImageServer"
+            },
+            "1a1347c6303-layer-22": {
+              "id": "dataSource_1-grupo_9bedb69099104a61a9dce25d46095b6d-1a1347c6303-layer-22",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Temperatura máxima media diaria",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "1ea31603346c42f6ac501d8150141e73",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Olas_CalorTMAX_MEDIA_DIARIA/ImageServer"
+            }
+          }
+        },
+        "grupo_d05bb353fe9f45b9b9243fc096953e56": {
+          "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Incendios forestales",
+          "childDataSourceJsons": {
+            "1a1347c5ed9-layer-21": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c5ed9-layer-21",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad básica · REF",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "39081eff45774850ad72b3476dc90804",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_06_V_PELIGROSIDAD_BASICA_REF_RECLASS/ImageServer"
+            },
+            "1a1347c5ac1-layer-20": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c5ac1-layer-20",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad básica · RCP 4.5 · 2030–2059",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "6159dac9a1974c2e844157e1cca6c4ce",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_07_V_PELIGROSIDAD_BASICA_RCP45_30_59_RECLASS/ImageServer"
+            },
+            "1a1347c568b-layer-19": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c568b-layer-19",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad básica · RCP 4.5 · 2070–2099",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "8797f8e691c94b98bb71cccdb3a25253",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_08_V_PELIGROSIDAD_BASICA_RCP45_70_90_RECLASS/ImageServer"
+            },
+            "1a1347c5389-layer-18": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c5389-layer-18",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad básica · RCP 8.5 · 2030–2059",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "91f165eda8854317a0c052db37b89d0a",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_09_V_PELIGROSIDAD_BASICA_RCP85_30_59_RECLASS/ImageServer"
+            },
+            "1a1347c4e00-layer-17": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c4e00-layer-17",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad básica · RCP 8.5 · 2070–2099",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "177bafc72c3d4532bb9f1f430694d83d",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_10_V_PELIGROSIDAD_BASICA_RCP85_70_99_RECLASS/ImageServer"
+            },
+            "1a1347c4c9e-layer-16": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c4c9e-layer-16",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad integrada · REF",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "2928bf86632940b0976c788aefe20392",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_11_V_PELIGROSIDAD_INTEGRADA_REF_RECLASS/ImageServer"
+            },
+            "1a1347c461b-layer-15": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c461b-layer-15",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad integrada · RCP 4.5 · 2030–2059",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "b152a05cbcf94a93827e6d9ce7beeed2",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_12_V_PELIGROSIDAD_INTEGRADA_RCP45_30_59_RECLASS/ImageServer"
+            },
+            "1a1347c439f-layer-14": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c439f-layer-14",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad integrada · RCP 4.5 · 2070–2099",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e0603d73d12844d3a0fae8c6f9b19f4f",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_13_V_PELIGROSIDAD_INTEGRADA_RCP45_70_99_RECLASS/ImageServer"
+            },
+            "1a1347c3ea7-layer-13": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c3ea7-layer-13",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad integrada · RCP 8.5 · 2030–2059",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "fe6d208a191f4d72b8e3b0b02fb29b46",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_14_V_PELIGROSIDAD_INTEGRADA_RCP85_30_59_RECLASS/ImageServer"
+            },
+            "1a1347c3b87-layer-12": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c3b87-layer-12",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad integrada · RCP 8.5 · 2070–2099",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "3ff7b8a6c548448dbd92b2f28199ed17",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_15_V_PELIGROSIDAD_INTEGRADA_RCP85_70_99_RECLASS/ImageServer"
+            },
+            "1a1347c35fa-layer-11": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c35fa-layer-11",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · REF",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "57f92f5f9a2b49d2a96a04c725dd616e",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_01_SUSCEPTIBILIDAD_REF_RECLASS/ImageServer"
+            },
+            "1a1347c330d-layer-10": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c330d-layer-10",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · RCP 4.5 · 2030–2059",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "952869d345db4426b5e02436adbc2ab7",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_02_SUSCEPTIBILIDAD_RCP45_30_59_RECLASS/ImageServer"
+            },
+            "1a1347c2dc7-layer-9": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c2dc7-layer-9",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · RCP 4.5 · 2070–2099",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "559f8cadfdbe4168b8931f8e9ff641bb",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_03_SUSCEPTIBILIDAD_RCP45_70_99_RECLASS/ImageServer"
+            },
+            "1a1347c2a45-layer-8": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c2a45-layer-8",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · RCP 8.5 · 2030–2059",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "30d0ca6a46bb42108f8424cb2b366ac5",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_04_SUSCEPTIBILIDAD_RCP85_30_59_RECLASS/ImageServer"
+            },
+            "1a1347c26fb-layer-7": {
+              "id": "dataSource_1-grupo_d05bb353fe9f45b9b9243fc096953e56-1a1347c26fb-layer-7",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Susceptibilidad · RCP 8.5 · 2070–2099",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "92e3b4948d2b4e9682fdf5c9a44856b0",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Incendios_AME_IF_05_SUSCEPTIBILIDAD_RCP85_70_99_RECLASS/ImageServer"
+            }
+          }
+        },
+        "grupo_6f359d77a1044c118d959f74f31555a8": {
+          "id": "dataSource_1-grupo_6f359d77a1044c118d959f74f31555a8",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Sequía",
+          "childDataSourceJsons": {
+            "1a1347c1e62-layer-6": {
+              "id": "dataSource_1-grupo_6f359d77a1044c118d959f74f31555a8-1a1347c1e62-layer-6",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad · RCP 4.5 · 2030–2059",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "4e74b17711a94604b1bf47ce23ad8924",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Sequi_Peligrosidad_RCP45_2030_2059/ImageServer"
+            },
+            "1a1347c1890-layer-5": {
+              "id": "dataSource_1-grupo_6f359d77a1044c118d959f74f31555a8-1a1347c1890-layer-5",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad · RCP 4.5 · 2070–2099",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "9263f38267df422daac4b6b89c54dc8f",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Sequi_Peligrosidad_RCP45_2070_2099/ImageServer"
+            },
+            "1a1347c136e-layer-4": {
+              "id": "dataSource_1-grupo_6f359d77a1044c118d959f74f31555a8-1a1347c136e-layer-4",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad · RCP 8.5 · 2030–2059",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "15699f0281ea483ea9ab5c059a3b7396",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Sequi_Peligrosidad_RCP85_2030_2059/ImageServer"
+            },
+            "1a1347c10f6-layer-3": {
+              "id": "dataSource_1-grupo_6f359d77a1044c118d959f74f31555a8-1a1347c10f6-layer-3",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Peligrosidad · RCP 8.5 · 2070–2099",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "da9a2a8e36984b8d9cbc91a5df1c82b0",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Sequi_Peligrosidad_RCP85_2070_2099/ImageServer"
+            }
+          }
+        },
+        "grupo_af6527af78b64b2883104fc7c8307602": {
+          "id": "dataSource_1-grupo_af6527af78b64b2883104fc7c8307602",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Calima",
+          "childDataSourceJsons": {
+            "1a13f36f554-layer-62": {
+              "id": "dataSource_1-grupo_af6527af78b64b2883104fc7c8307602-1a13f36f554-layer-62",
+              "type": "IMAGERY_TILE_LAYER",
+              "sourceLabel": "Concentración media",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "f1239942c2fe4fb1bcf915fa52559d5a",
+              "url": "https://tiledimageservices3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/Calim_CONCENTRACION_MEDIA/ImageServer"
+            }
+          }
+        }
+      }
+    },
+    "dataSource_ittcan_territorial": {
+      "id": "dataSource_ittcan_territorial",
+      "type": "FEATURE_LAYER",
+      "itemId": "4e8dcc57aa694637a6dd18bc0b129353",
+      "layerId": "0",
+      "url": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/ITTCAN_Estadisticas_Territoriales_20261018_091905/FeatureServer/0",
+      "portalUrl": "https://www.arcgis.com/",
+      "sourceLabel": "ITTCAN · Estadísticas por municipio, isla y Canarias",
+      "schema": {
+        "idField": "ObjectId",
+        "fields": {
+          "codmun": {
+            "jimuName": "codmun",
+            "name": "codmun",
+            "alias": "codmun",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "municipio": {
+            "jimuName": "municipio",
+            "name": "municipio",
+            "alias": "municipio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "isla": {
+            "jimuName": "isla",
+            "name": "isla",
+            "alias": "isla",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "amenaza": {
+            "jimuName": "amenaza",
+            "name": "amenaza",
+            "alias": "amenaza",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "variante": {
+            "jimuName": "variante",
+            "name": "variante",
+            "alias": "variante",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "servicio": {
+            "jimuName": "servicio",
+            "name": "servicio",
+            "alias": "servicio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "id_capa": {
+            "jimuName": "id_capa",
+            "name": "id_capa",
+            "alias": "id_capa",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "nivel": {
+            "jimuName": "nivel",
+            "name": "nivel",
+            "alias": "nivel",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "etiqueta": {
+            "jimuName": "etiqueta",
+            "name": "etiqueta",
+            "alias": "etiqueta",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "area_m2": {
+            "jimuName": "area_m2",
+            "name": "area_m2",
+            "alias": "area_m2",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "resolucion_m": {
+            "jimuName": "resolucion_m",
+            "name": "resolucion_m",
+            "alias": "resolucion_m",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "crs": {
+            "jimuName": "crs",
+            "name": "crs",
+            "alias": "crs",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "oficial": {
+            "jimuName": "oficial",
+            "name": "oficial",
+            "alias": "oficial",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "ambito": {
+            "jimuName": "ambito",
+            "name": "ambito",
+            "alias": "ambito",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "territorio": {
+            "jimuName": "territorio",
+            "name": "territorio",
+            "alias": "territorio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "codigo_territorio": {
+            "jimuName": "codigo_territorio",
+            "name": "codigo_territorio",
+            "alias": "codigo_territorio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "area_ha": {
+            "jimuName": "area_ha",
+            "name": "area_ha",
+            "alias": "area_ha",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "porcentaje": {
+            "jimuName": "porcentaje",
+            "name": "porcentaje",
+            "alias": "porcentaje",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "total_representado_ha": {
+            "jimuName": "total_representado_ha",
+            "name": "total_representado_ha",
+            "alias": "total_representado_ha",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "alto_muy_alto_ha": {
+            "jimuName": "alto_muy_alto_ha",
+            "name": "alto_muy_alto_ha",
+            "alias": "alto_muy_alto_ha",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "pct_alto_muy_alto": {
+            "jimuName": "pct_alto_muy_alto",
+            "name": "pct_alto_muy_alto",
+            "alias": "pct_alto_muy_alto",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "tiene_datos": {
+            "jimuName": "tiene_datos",
+            "name": "tiene_datos",
+            "alias": "tiene_datos",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "orden_nivel": {
+            "jimuName": "orden_nivel",
+            "name": "orden_nivel",
+            "alias": "orden_nivel",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "color_hex": {
+            "jimuName": "color_hex",
+            "name": "color_hex",
+            "alias": "color_hex",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "ObjectId": {
+            "jimuName": "ObjectId",
+            "name": "ObjectId",
+            "alias": "ObjectId",
+            "esriType": "esriFieldTypeOID",
+            "type": "NUMBER"
+          }
+        }
+      }
+    },
+    "dataSource_ittcan_resumen": {
+      "id": "dataSource_ittcan_resumen",
+      "type": "FEATURE_LAYER",
+      "itemId": "b600a87cfd814893938df82ec965cafe",
+      "layerId": "0",
+      "url": "https://services3.arcgis.com/YzXIOcKGjnKkV9kD/arcgis/rest/services/ITTCAN_Resumen_Variantes_20261018_093348/FeatureServer/0",
+      "portalUrl": "https://www.arcgis.com/",
+      "sourceLabel": "ITTCAN · Comparación de variantes por territorio",
+      "schema": {
+        "idField": "ObjectId",
+        "fields": {
+          "codmun": {
+            "jimuName": "codmun",
+            "name": "codmun",
+            "alias": "codmun",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "municipio": {
+            "jimuName": "municipio",
+            "name": "municipio",
+            "alias": "municipio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "isla": {
+            "jimuName": "isla",
+            "name": "isla",
+            "alias": "isla",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "amenaza": {
+            "jimuName": "amenaza",
+            "name": "amenaza",
+            "alias": "amenaza",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "variante": {
+            "jimuName": "variante",
+            "name": "variante",
+            "alias": "variante",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "servicio": {
+            "jimuName": "servicio",
+            "name": "servicio",
+            "alias": "servicio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "id_capa": {
+            "jimuName": "id_capa",
+            "name": "id_capa",
+            "alias": "id_capa",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "resolucion_m": {
+            "jimuName": "resolucion_m",
+            "name": "resolucion_m",
+            "alias": "resolucion_m",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "crs": {
+            "jimuName": "crs",
+            "name": "crs",
+            "alias": "crs",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "oficial": {
+            "jimuName": "oficial",
+            "name": "oficial",
+            "alias": "oficial",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "ambito": {
+            "jimuName": "ambito",
+            "name": "ambito",
+            "alias": "ambito",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "territorio": {
+            "jimuName": "territorio",
+            "name": "territorio",
+            "alias": "territorio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "codigo_territorio": {
+            "jimuName": "codigo_territorio",
+            "name": "codigo_territorio",
+            "alias": "codigo_territorio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "total_representado_ha": {
+            "jimuName": "total_representado_ha",
+            "name": "total_representado_ha",
+            "alias": "total_representado_ha",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "alto_muy_alto_ha": {
+            "jimuName": "alto_muy_alto_ha",
+            "name": "alto_muy_alto_ha",
+            "alias": "alto_muy_alto_ha",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "pct_alto_muy_alto": {
+            "jimuName": "pct_alto_muy_alto",
+            "name": "pct_alto_muy_alto",
+            "alias": "pct_alto_muy_alto",
+            "esriType": "esriFieldTypeDouble",
+            "type": "NUMBER"
+          },
+          "tiene_datos": {
+            "jimuName": "tiene_datos",
+            "name": "tiene_datos",
+            "alias": "tiene_datos",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "orden_nivel": {
+            "jimuName": "orden_nivel",
+            "name": "orden_nivel",
+            "alias": "orden_nivel",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "puesto_variante": {
+            "jimuName": "puesto_variante",
+            "name": "puesto_variante",
+            "alias": "puesto_variante",
+            "esriType": "esriFieldTypeInteger",
+            "type": "NUMBER"
+          },
+          "criterio": {
+            "jimuName": "criterio",
+            "name": "criterio",
+            "alias": "criterio",
+            "esriType": "esriFieldTypeString",
+            "type": "STRING"
+          },
+          "ObjectId": {
+            "jimuName": "ObjectId",
+            "name": "ObjectId",
+            "alias": "ObjectId",
+            "esriType": "esriFieldTypeOID",
+            "type": "NUMBER"
+          }
+        }
+      }
+    },
+    "widget_ittcan_comparacion_output": {
+      "id": "widget_ittcan_comparacion_output",
+      "type": "FEATURE_LAYER",
+      "label": "Comparación de variantes",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_ittcan_resumen",
+          "mainDataSourceId": "dataSource_ittcan_resumen",
+          "fields": [
+            "*"
+          ]
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "__outputid__",
+        "label": "Comparación de variantes",
+        "fields": {
+          "__outputid__": {
+            "jimuName": "__outputid__",
+            "name": "__outputid__",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID"
+          },
+          "variante": {
+            "jimuName": "variante",
+            "name": "variante",
+            "alias": "Variante",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "originFields": [
+              "variante"
+            ]
+          },
+          "max_of_pct_alto_muy_alto": {
+            "jimuName": "max_of_pct_alto_muy_alto",
+            "name": "max_of_pct_alto_muy_alto",
+            "alias": "Superficie alta y muy alta (%)",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "originFields": [
+              "pct_alto_muy_alto"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
